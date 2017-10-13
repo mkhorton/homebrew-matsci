@@ -37,6 +37,11 @@ class Enumlib < Formula
       bin.install "enum.x"
       bin.install "makestr.x"
     end
+
+    cd "aux_src" do
+      inreplace "makeStr.py", "\"\"\"This scripts produces", "\#!/usr/bin/env python3\n\n\"\"\"This script produces"
+      bin.install "makeStr.py"
+    end
   end
 
   test do
