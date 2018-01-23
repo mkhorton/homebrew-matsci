@@ -1,9 +1,9 @@
 class Critic2 < Formula
   desc "Analysis of quantum chemical interactions in molecules and solids."
   homepage "https://github.com/aoterodelaroza/critic2"
-  url "https://github.com/aoterodelaroza/critic2/archive/stable.tar.gz"
+  url "https://github.com/aoterodelaroza/critic2/archive/0765e3bf1280f07ebd0a9a6bdf64eb165c31407f.zip"
   version "2.0-stable"
-  sha256 "5c0803d47fbbb061b9f0b44e56eeebd7aa3298b275b9253fecdae7847a1ff903"
+  sha256 "99386eef6fb265d1f08f5e7f59aac3ec2fbca2081edd193b479f718f60c36dce"
   head "https://github.com/aoterodelaroza/critic2.git"
   # tag "matsci"
   # doi "10.1016/j.cpc.2013.10.026"
