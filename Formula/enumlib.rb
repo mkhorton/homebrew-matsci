@@ -9,7 +9,6 @@ class Enumlib < Formula
   # doi: 10.1016/j.commatsci.2012.02.015
 
   depends_on "gcc" => :build
-  depends_on :fortran => :build
 
   resource "symlib" do
     url "https://github.com/msg-byu/symlib/archive/v1.1.0.tar.gz"
